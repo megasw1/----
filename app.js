@@ -20,14 +20,30 @@
 //   console.log("사과와 바나나는 같습니다");
 // }
 
-for (let i = 1; i < 101; i++) {
-  if (i % 15 == 0) {
-    console.log("삼삼오오");
-  } else if (i % 5 == 0) {
-    console.log("오오");
-  } else if (i % 3 == 0) {
-    console.log("삼삼");
-  } else {
-    console.log(i);
-  }
+// for (let i = 1; i < 101; i++) {
+//   if (i % 15 == 0) {
+//     console.log("삼삼오오");
+//   } else if (i % 5 == 0) {
+//     console.log("오오");
+//   } else if (i % 3 == 0) {
+//     console.log("삼삼");
+//   } else {
+//     console.log(i);
+//   }
+// }
+
+// let user = "홍길동";
+// function showMessage() {
+//   let message = "안녕하세여";
+//   alert(message + user + "님");
+// }
+// showMessage();
+
+function showMessage(who, text) {
+  who = "👏" + who;
+  alert(who + ":" + text);
+}
+
+function 더하기(a, b) {
+  return a + b;
 }
