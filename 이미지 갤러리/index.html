@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery with Lightbox</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Image Gallery</h1>
+    <!-- 이미지 갤러리 -->
+    <section class="gallery">
+      <ul class="images">
+        <li class="img"><img src="image/img-1.jpg" alt="img" /></li>
+        <li class="img"><img src="image/img-2.webp" alt="img" /></li>
+        <li class="img"><img src="image/img-3.jpg" alt="img" /></li>
+        <li class="img"><img src="image/img-4.jpg" alt="img" /></li>
+        <li class="img"><img src="image/img-5.jpg" alt="img" /></li>
+        <li class="img"><img src="image/img-6.jpg" alt="img" /></li>
+        <li class="img"><img src="image/img-7.webp" alt="img" /></li>
+        <li class="img"><img src="image/img-8.jpg" alt="img" /></li>
+        <li class="img"><img src="image/img-9.jpg" alt="img" /></li>
+        <li class="img"><img src="image/img-10.webp" alt="img" /></li>
+        <li class="img"><img src="image/img-11.jpg" alt="img" /></li>
+      </ul>
+    </section>
+    <!-- 이미지 클릭시 팝업 박스 -->
+    <div class="lightbox">
+      <div class="wrapper">
+        <header>
+          <div class="details">
+            <i class="uil uil-camera"></i>
+            <span>Image Preview</span>
+          </div>
+          <div class="buttons"><i class="close-icon uil uil-times"></i></div>
+        </header>
+        <div class="preview-img">
+          <div class="img"><img src="" alt="preview-img" /></div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
